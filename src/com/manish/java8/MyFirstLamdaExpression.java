@@ -8,7 +8,7 @@ public class MyFirstLamdaExpression {
 
 	public static void main(String[] args) {
 		Comparator<String> comparator = 
-				(String s1, String s2) -> Integer.compare(s1.length(), s2.length());
+				(s1, s2) -> Integer.compare(s1.length(), s2.length());
 				
 		String[] valuesToCompare = {"Manish" , "Peshwani", "P"};
 		Arrays.sort(valuesToCompare,comparator);

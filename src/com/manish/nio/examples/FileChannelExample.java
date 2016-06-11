@@ -24,6 +24,7 @@ public class FileChannelExample {
 			}
 			buf.clear();
 			result = fileChannel.read(buf);
+			
 		}
 
 	}
